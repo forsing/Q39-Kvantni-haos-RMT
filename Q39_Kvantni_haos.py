@@ -97,7 +97,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4602_k32.csv")
+CSV_PATH = Path("/data/loto7hh_4602_k32.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -340,7 +340,7 @@ if __name__ == "__main__":
 ====================================================================================
 Q39 Kvantni haos / RMT — GOE + Lorentzian(E_target) weighted mixed state
 ====================================================================================
-CSV:            /Users/4c/Desktop/GHQ/data/loto7hh_4602_k32.csv
+CSV:            /data/loto7hh_4602_k32.csv
 Broj redova:    4602
 Qubit budget:   6 po poziciji  (Hermitski prostor dim=64)
 Hamiltonijan:   H = diag((j−j_target)²) + σ · G_GOE
@@ -364,7 +364,7 @@ REZULTAT Q39 (NEXT kombinacija)
 Suma:  182   (S̄=140.51)
 #odd:  4
 Gaps:  [9, 2, 4, 7, 5, 1]
-Predikcija NEXT: [10, 19, 21, 25, 32, 37, 38]
+Predikcija NEXT: [10, 19, x, y, z, 37, 38]
 """
 
 
